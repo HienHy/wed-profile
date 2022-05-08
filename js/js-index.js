@@ -1,5 +1,20 @@
 $(document).ready(function(){
-    $("#show").click(function(){
-        $("p").show('slow');
-    });
-});
+
+    alert('Welcome!!!');
+
+
+$(".nav-about").click(function(){
+    $("#about p").css("font-family", "monospace").slideDown(2000);
+  })
+
+
+
+
+
+
+
+
+
+
+})
+
