@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box!important;
+}
+.nav-link {
+    text-align: center;
+}
+img.rounded-pill{
+display: block!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top:20px!important;
+}
+.row{
+    display: flex!important;
+}
+
+
+.nav-item a {
+    font-weight: 800;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.nav-item a:hover {
+    background-color: #ccc;
+    color: red;
+}
+
+.col-4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 0!important;
+    border: #ccc solid 2px;
+    background-color: #c66436;
+}
+
+.col-8 {
+    padding-left: 30px !important;
+}
+#awards,
+#interests,
+#Experience,
+#skill,
+#education,
+#about {
+    border-bottom: solid black 1px;
+}
+
+.span-title {
+    font-size: 80px;
+    font-family: fantasy, cursive;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+.icon-about p {
+    text-align: center !important;
+    margin: 20px !important;
+    font-size: 50px !important;
+}
+
+#about ion-icon {
+    border: solid 2px #ccc;
+    border-radius: 20px;
+    background: #343840;
+    color: white;
+    margin: 15px;
+}
+
+#about ion-icon:hover {
+    background-color: #cc6b3c;
+}
+
+.icon-skill{
+    text-align: center !important;
+    margin: 20px !important;
+    font-size: 50px !important;
+}
+
+#skill ion-icon{
+    border: solid 2px #ccc;
+    border-radius: 20px;
+    background: #343840;
+    color: white;
+    margin: 15px;
+
+}
+#skill ion-icon:hover {
+    background-color: #cc6b3c;
+}
+
+
+
+
