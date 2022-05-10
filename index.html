@@ -4,140 +4,608 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
 
 
 </head>
 <body>
-<div class="row">
-    <div class="col-4 sticky-left">
+<div id="preloader"></div>
+<header class="header">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/IMG_1589.JPG" alt="Avatar Logo" style="width:50%; height:auto" class="rounded-pill">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="img/logo-chef-quyet-lau-ship.png" alt="logo" height="145px">
             </a>
-        </div>
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <a class="nav-link nav-about" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Experience">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skill">Skill</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#interests">Interests</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#awards">Awards</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-8">
-        <div id="about">
-            <div class="span-title">
-                <span style="color:#343840">HIEN</span><br>
-                <span style="color: #cc6b3c">NGUYEN</span>
-            </div>
-            <p>8A TON THAT THUYET-HA NOI- 0946299388 - <span style="color: #c66436"> hiennguyenhy0911@gmail.com</span>
-            </p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: red!important;" href="javascript:void(0)">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Bài viết</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Hướng dẫn đặt hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </a>
+                    </li>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias amet animi asperiores,
-                culpa
-                dolor dolores est incidunt iure labore magnam maxime mollitia nam neque perspiciatis quo unde
-                voluptate.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias amet animi asperiores,
-                culpa
-                dolor dolores est incidunt iure labore magnam maxime mollitia nam neque perspiciatis quo unde
-                voluptate.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias amet animi asperiores,
-                culpa
-                dolor dolores est incidunt iure labore magnam maxime mollitia nam neque perspiciatis quo unde
-                voluptate.</p>
-
-            <div class="icon-about">
-                <p>
-                    <ion-icon class="icon-about-1" name="logo-instagram"></ion-icon>
-                    <ion-icon class="icon-about-1" name="logo-github"></ion-icon>
-                    <ion-icon class="icon-about-1" name="logo-twitter"></ion-icon>
-                    <ion-icon class="icon-about-1" name="logo-facebook"></ion-icon>
-                </p>
+                </ul>
+                <form class=" d-flex">
+                    <button class="btn btn-primary" type="button" style="background-color: red">
+                        <span class="ion-icon-header">
+                            <ion-icon name="call"></ion-icon>
+                            <ion-icon name="chatbox-ellipses"></ion-icon>
+                        </span>
+                        <span class="hotline">
+                            <p>Hotline Đặt Hàng<br>
+                                09xx xxx xxx</p>
+                        </span>
+                    </button>
+                </form>
             </div>
         </div>
-        <div id="Experience">
-            <div class="web-developer">
-                <h1>WED DEVELOPER</h1>
-                <h3>INTELITEC SOLUTIONS</h3>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet aperiam asperiores autem
-                    blanditiis
-                    consequuntur corporis illum laudantium libero nostrum odio quaerat quam qui quis soluta, tempore
-                    temporibus voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, delectus eos, facilis minima
-                    molestiae nostrum odio pariatur provident quibusdam quidem quis suscipit totam, voluptas! Ab animi
-                    assumenda dignissimos dolor doloribus!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam architecto atque
-                    corporis
-                    dolorem ea illo, ipsa minus nihil obcaecati perferendis quasi, quo, recusandae similique suscipit ut
-                    velit? Dolor, ratione!
-                </P>
+    </nav>
+</header>
+<!--container-->
+<div class="container-menu">
+    <h2>Các Món Lẩu</h2>
+</div>
+<div class="container-list-menu">
+    <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="">Lẩu thái tomyum</a></li>
+        <li class="nav-menu-item"><a href="">Lẩu đuôi bò khoai môn</a></li>
+        <li class="nav-menu-item"><a href="">Lẩu riêu cua đồng tóp mỡ</a></li>
+        <li class="nav-menu-item"><a href="">Lẩu ếch măng cay</a></li>
+        <li class="nav-menu-item"><a href="">Đồ nhúng lẩu</a></li>
+    </ul>
+
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
             </div>
-            <div class="designer">
-
-                <h1>WED DESIGN INTERN</h1>
-                <h3>SHOUT! MEDIA PRODUCTIONS</h3>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos et fugiat fugit illum inventore
-                    iure laborum modi placeat praesentium provident quae quibusdam, recusandae, repellat sed tempore
-                    tenetur voluptatum? Aliquam, et.</P>
-
+            <div class="right-sale">
+                <span>23.4%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/lau-thai-2-nguoi-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu thái bò 2 người</a><br>
+                        <span>229,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
             </div>
         </div>
-        <div id="education">
-            <h1>Education</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolor earum esse eveniet ex facilis
-                fuga fugit, harum itaque mollitia, neque officia praesentium quia unde vero? Adipisci consectetur
-                dolorum provident.</p>
-
-        </div>
-        <div id="skill">
-            <h1>Skill</h1>
-            <h3>Programing Languages And Tolls</h3>
-            <p class="icon-skill">
-                <ion-icon name="logo-javascript"></ion-icon>
-                <ion-icon name="logo-css3"></ion-icon>
-                <ion-icon name="logo-html5"></ion-icon>
-            </p>
-            <h3></h3>
-        </div>
-        <div id="interests">
-            <h1>Interests</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci soluta totam veritatis! Consectetur
-                deleniti facilis harum iusto mollitia quasi. Adipisci aliquid beatae consequuntur cum doloribus
-                exercitationem fugiat nobis possimus quidem?</p>
-        </div>
-        <div id="awards">
-            <h1>Awards</h1>
-
-            ...
-
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>19%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/lau-thai-bo-thap-cam-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu thái bò 2-3 người</a><br>
+                        <span>299,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>10.3%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/lau-thai-bo-hai-san-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu thái hải sản 2-3 người</a><br>
+                        <span>349,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>16.7%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/lau-thai-thap-cam-set-lon-500x500.jpg" width="450px" height="450px"
+                         alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu thái bò 4-6 người</a><br>
+                        <span>499,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
 
 
-    <div class="snowflakes" aria-hidden="true">         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>         <div class="snowflake">❅</div>         <div class="snowflake">❆</div>       </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>14.3%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/lau-thai-thap-cam-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu thập cẩm 4-6 người</a><br>
+                        <span>599,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>19%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/LAU-DUOI-BO-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu đuôi bò khoai môn 2-3 người</a><br>
+                        <span>299,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>15.4%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/Lau-duoi-bo-4-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu đuôi bò 4-6 người</a><br>
+                        <span>549,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>19%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/RIEU-CUA-2-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu riêu cua 2-3 người</a><br>
+                        <span>299,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>10.5%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/RIEU-CUA-4-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu riêu cua 4-6 người</a><br>
+                        <span>599,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>24.3%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/ECH-2-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu ếch 2-3 người</a><br>
+                        <span>249,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/ECH-4-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Lẩu ếch 4-6 người</a><br>
+                        <span>599,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/BA-CHI-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Ba chỉ bò</a><br>
+                        <span>89,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/GAU-BO-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Gầu bò</a><br>
+                        <span>99,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/Bap-bo-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Bắp bò</a><br>
+                        <span>89,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/Duoi-bo-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Đuôi bò</a><br>
+                        <span>99,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/Ga-ta-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Gà ta nửa con</a><br>
+                        <span>139,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/MUC-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Mực</a><br>
+                        <span>99,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/TOM-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Tôm</a><br>
+                        <span>99,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/VANG-DAU-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Váng đậu</a><br>
+                        <span>25.000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/SUON-SUN-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Sườn sụn</a><br>
+                        <span>89,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+                <figure>
+                    <img src="img/NAM-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+                    <figcaption class="figcaption-container">
+                        <a href="">Nấm</a><br>
+                        <span>40,000đ</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left-sale">
+                <span>Sale</span>
+            </div>
+            <div class="right-sale">
+                <span>0%</span>
+            </div>
+            <div class="menu-img">
+
+                    <figure>
+                        <img src="img/dau-hu-pho-mai-500x500.jpg" width="450px" height="450px" alt="lau thai 2 nguoi">
+
+                        <figcaption class="figcaption-container">
+                            <a href="">Đậu hũ phô mai</a><br>
+                            <span>79,000đ</span>
+                        </figcaption>
+                    </figure>
+            </div>
+            <div class="icon-menu">
+                <ion-icon name="cart-outline"></ion-icon>
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
 
 
 </div>
 
+
+
+<div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+</div>
+
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="js/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/js-index.js"></script>
 </body>
 </html>

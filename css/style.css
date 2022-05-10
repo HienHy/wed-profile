@@ -1,107 +1,275 @@
-*{
+#preloader {
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99999999999;
+    width:100%;
+    height:100%;
+    overflow:visible;
+    background: #fff url('../img/logo-chef-quyet-lau-ship.png') no-repeat center center;
+}
+
+
+
+.container-fluid{
+    margin: 0 50px!important;
+}
+.navbar{
+    height: 150px;
+}
+.container-fluid{
+    height: 100%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item a{
+    font-weight: 500;
+    font-size: 25px;
+    color: black!important;
+    opacity: 0.5;
+    padding: 0 20px 0 20px!important;
+
+}
+.ion-icon-header{
+    margin-left: auto;
+    font-size: 40px;
+    clear: both;
+}
+.nav-item a:hover{
+    border-bottom: solid 2px black;
+}
+.nav-item ion-icon{
+    margin-top:5px;
+}
+.btn-primary:hover{
+    color: white!important;
+    background-color:black!important;
+    border: blueviolet solid 2px;
+
+}
+
+/*menu*/
+/*mennu*/
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box!important;
 }
-.nav-link {
+
+.container-menu {
+    margin: 0!important;
+    height: 62px!important;
+    color: #DA0707!important;
     text-align: center;
+    background-color: #f6f5f2;
+    font-size: 30px!important;
 }
-img.rounded-pill{
-display: block!important;
-    margin-left: auto!important;
-    margin-right: auto!important;
-    margin-top:20px!important;
-}
-.row{
-    display: flex!important;
-    justify-content: flex-end!important;
+.container-list-menu{
+    padding-top: 120px;
 }
 
+.nav-menu {
 
-.nav-item a {
-    font-weight: 800;
-    font-family: monospace;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 30px 0;
+
+}
+
+.nav-menu-item a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    position: relative;
+    display: inline-flex;
+    flex: 0 0 auto;
+}
+.nav-menu-item a:hover{
+    color:red;
+    transition: 0.5s;
+    border-bottom: solid black 2px;
+
+}
+/* menu container */
+.col-6{
+    background-color: #f6f5f2 ;
+    width: 49%!important;
+    padding-right:0!important;
+    padding-top: 25px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.col-6:hover{
+    transition: ease 0.5s;
+    border: black solid 2px;
+    border-radius:5px 5px 5px 5px;
+}
+
+.left-sale{
+    margin-left: 2%;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
     color: white;
     font-size: 30px;
-    margin: 2px;
+    background-color: red;
+    float: left;
+    clear: both;
 }
-
-.nav-item a:hover {
-    background-color: #ccc;
-    color: red;
-}
-
-.col-4 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-right: 0!important;
-    border: #ccc solid 2px;
-    background-color: #c66436;
-}
-
-.col-8 {
-    padding-left: 30px !important;
-}
-#awards,
-#interests,
-#Experience,
-#skill,
-#education,
-#about {
-    border-bottom: solid black 1px;
-    height: 780px;
-}
-
-.span-title {
-    font-size: 80px;
-    font-family: fantasy, cursive;
-}
-
-#about p {
+.right-sale{
+    margin-right: 2%;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
     font-size: 20px;
+    background-color: red;
+    float: right;
 }
-
-.icon-about p {
-    text-align: center !important;
-    margin: 20px !important;
-    font-size: 50px !important;
+.menu-img{
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
 }
+.menu-img img{
+    border: black solid 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+figcaption{
+    text-align: center;
+}
+.figcaption-container a{
+    text-decoration: none;
+    color: #0a0a39;
+    font-size: 25px;
+    font-weight: 500;
 
-#about ion-icon {
-    border: solid 2px #ccc;
-    border-radius: 20px;
-    background: #343840;
+}
+.figcaption-container span{
+    font-size: 25px;
+    color: #db0101;
+}
+.icon-menu{
+    text-align: center;
+    font-size: 25px;
+
+}
+.icon-menu ion-icon{
+    margin-left: 10px;
+    border: white;
+}
+.icon-menu ion-icon:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0a0a39;
     color: white;
-    margin: 15px;
-}
-
-#about ion-icon:hover {
-    background-color: #cc6b3c;
-}
-
-.icon-skill{
-    text-align: center !important;
-    margin: 20px !important;
-    font-size: 50px !important;
-}
-
-#skill ion-icon{
-    border: solid 2px #ccc;
-    border-radius: 20px;
-    background: #343840;
-    color: white;
-    margin: 15px;
-
-}
-#skill ion-icon:hover {
-    background-color: #cc6b3c;
-}
-.designer{
-    padding-top: 50px;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*snow*/
 @-webkit-keyframes snowflakes-fall {
     0% {top:-10%}
     100% {top:100%}
